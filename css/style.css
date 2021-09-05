@@ -24,7 +24,7 @@
   padding: 0; }
 
 .navbar-default {
-  background-color: transparent;
+  background-color: #dedede;
   background-image: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -38,10 +38,7 @@
   .navbar-default .navbar-header .navbar-brand img {
     transition: 0.3s; }
   .navbar-default .navbar-nav li {
-    margin-left: 30px;
-    transition: 0.3s; }
-    .navbar-default .navbar-nav li :hover {
-      border-bottom: solid 1px; }
+    margin-left: 30px; }
     .navbar-default .navbar-nav li a {
       font: 16px Asap-Regular;
       text-transform: uppercase;
@@ -49,14 +46,118 @@
       margin-top: 35px;
       padding: 0 0 10px;
       border: none;
-      transition: 0.3s; }
-      .navbar-default .navbar-nav li a :hover {
-        color: #4d4d4d; }
+      transition: 0.3s;
+      border-bottom: solid 1px transparent; }
+      .navbar-default .navbar-nav li a:hover {
+        color: #4d4d4d;
+        border-bottom: #4d4d4d; }
+
+.main-info-sec {
+  padding-top: 130px; }
+  .main-info-sec .top-sec-h4 {
+    font: 18px Asap-Bold;
+    color: #909090;
+    margin-top: 0; }
+  .main-info-sec .top-sec-h2 {
+    font: 88px Asap-Bold;
+    color: #4d4d4d;
+    margin-bottom: 0; }
+  .main-info-sec .top-sec-btn-block {
+    margin-top: 25px; }
+    .main-info-sec .top-sec-btn-block .top-sec-btn {
+      display: block;
+      background-color: transparent;
+      height: 50px;
+      padding-top: 15px;
+      text-align: center;
+      font: 16px Asap-Bold;
+      color: #4d4d4d;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-underline: none;
+      border: 1px solid #4d4d4d;
+      margin-right: 20px;
+      transition: 0.4s; }
+      .main-info-sec .top-sec-btn-block .top-sec-btn:hover {
+        border: none;
+        background-color: white;
+        -webkit-box-shadow: 1px 1px 10px 1px #949494;
+        box-shadow: 1px 1px 10px 1px #949494; }
 
 .top-sec {
   background-color: #dedede;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-bottom: 10px; }
   .top-sec .person-on-circle img {
     width: 100%; }
+
+.main-h-of-sec {
+  font: 35px Asap-Bold;
+  color: #6f6f6f;
+  letter-spacing: 6px;
+  line-height: 35px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 0;
+  text-transform: uppercase; }
+
+.first-line {
+  height: 3px;
+  width: 50px;
+  background-color: #6f6f6f; }
+
+.line {
+  display: inline-block;
+  height: 3px;
+  width: 50px;
+  margin-top: 120px;
+  background-color: #6f6f6f; }
+
+.kmam-sec {
+  margin-top: 110px;
+  margin-bottom: 120px; }
+  .kmam-sec .kmam-txt-div {
+    padding-top: 68px; }
+    .kmam-sec .kmam-txt-div .kmam-p {
+      font: 15px Asap-Regular;
+      font-weight: 550;
+      line-height: 20px;
+      color: #4d4d4d;
+      padding: 0;
+      margin-bottom: 40px; }
+    .kmam-sec .kmam-txt-div .cv-download-btn {
+      display: block;
+      background-color: transparent;
+      height: 50px;
+      text-align: center;
+      font: 16px Asap-Bold;
+      color: #4d4d4d;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-underline: none;
+      border: 1px solid #4d4d4d;
+      margin-right: 20px;
+      transition: 0.4s; }
+      .kmam-sec .kmam-txt-div .cv-download-btn:hover {
+        background-color: #4d4d4d;
+        color: white;
+        border: #4d4d4d; }
+  .kmam-sec .kmam-img-div img {
+    width: 100%; }
+
+.services-sec {
+  background-color: #f6f6f6;
+  text-align: center; }
+  .services-sec .services-div {
+    margin-top: 70px;
+    padding-bottom: 40px; }
+  .services-sec .item-h6 {
+    font: 24px Asap-Bold;
+    color: #4d4d4d; }
+  .services-sec .item {
+    height: 110px;
+    margin-bottom: 80px; }
+    .services-sec .item img {
+      height: 75px; }
 
 /*# sourceMappingURL=style.css.map */
