@@ -160,4 +160,29 @@
     .services-sec .item img {
       height: 75px; }
 
+.my-skills-sec {
+  text-align: center;
+  background-color: white; }
+  .my-skills-sec .skill-img-div {
+    margin-top: 62px;
+    margin-bottom: 125px; }
+    .my-skills-sec .skill-img-div .img-div {
+      display: inline-block; }
+      .my-skills-sec .skill-img-div .img-div img {
+        width: 100%; }
+
+.portfolio-sec {
+  text-align: center;
+  background-color: #f6f6f6; }
+  .portfolio-sec .portfolio-item {
+    overflow: hidden;
+    height: 318px;
+    line-height: 318px;
+    text-align: center; }
+    .portfolio-sec .portfolio-item .portfolio-item_img {
+      height: 318px;
+      transition: 0.5s; }
+      .portfolio-sec .portfolio-item .portfolio-item_img:hover {
+        transform: scale(1.1); }
+
 /*# sourceMappingURL=style.css.map */
