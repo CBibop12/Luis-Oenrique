@@ -78,10 +78,8 @@ $dark-gray: #4d4d4d;
       color: $dark-gray;
       margin-top: 35px;
       padding: 0 0 10px;
-      border: none;
       transition: 0.3s;
       border-bottom: solid 1px transparent;
-
       &:hover {
         color: $dark-gray;
         border-bottom: $dark-gray;
@@ -189,10 +187,10 @@ $dark-gray: #4d4d4d;
       margin-right: 20px;
       transition: 0.4s;
       &:hover{
-        background-color: $dark-gray;
-        color: white;
-        border: $dark-gray;
-
+        border: none;
+        background-color: white;
+        -webkit-box-shadow: 1px 1px 10px 1px #949494;
+        box-shadow: 1px 1px 10px 1px #949494;
       }
     }
   }
@@ -240,17 +238,77 @@ $dark-gray: #4d4d4d;
 .portfolio-sec{
   text-align: center;
   background-color: #f6f6f6;
+  padding-bottom: 120px;
   .portfolio-item{
     overflow: hidden;
     height: 318px;
     line-height: 318px;
     text-align: center;
     .portfolio-item_img{
-      height: 318px;
-      transition: 0.5s;
-      &:hover{
-        transform: scale(1.1);
+      width: 100%;
+      transition: 0.3s;
+
+      &:hover {
+        transform: scale(0.8);
+        -webkit-box-shadow: 0 1px 10px 10px #D6D6D6;
+        box-shadow: 0 1px 10px 10px #D6D6D6;
       }
+    }
+  }
+
+  .load-more-btn{
+    margin-top: 30px;
+    display: block;
+    background-color: transparent;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    font: 16px Asap-Bold;
+    color: $dark-gray;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-underline: none;
+    border: 1px solid $dark-gray;
+    margin-right: 20px;
+    transition: 0.4s;
+    &:hover{
+      border: none;
+      background-color: white;
+      -webkit-box-shadow: 1px 1px 10px 1px #949494;
+      box-shadow: 1px 1px 10px 1px #949494;
+    }
+  }
+}
+.testimonials-sec{
+  text-align: center;
+  background-color: white;
+  padding-bottom: 120px;
+  .testimonials-carousel{
+    display: inline-block;
+    height: 350px;
+    border: 1px solid black;
+  }
+}
+.stat-numbers-sec{
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin-bottom: 150px;
+  .stat-number-item{
+    img{
+      height: 75px;
+    }
+    .stat-numbers-h5{
+      font: 22px Asap-Bold;
+      color: #363636;
+      margin-bottom: 15px;
+      margin-top: 30px;
+    }
+    .stat-numbers-h6{
+      font: 18px Asap-Regular;
+      color: #363636;
+      text-transform: uppercase;
     }
   }
 }
