@@ -235,4 +235,120 @@
     color: #363636;
     text-transform: uppercase; }
 
+.say-hello-sec {
+  text-align: center;
+  background-image: url("../images/contact bg.png");
+  background-size: cover; }
+  .say-hello-sec .say-hello-form {
+    margin-top: 55px; }
+  .say-hello-sec .white-line {
+    background-color: #c1c1c1; }
+  .say-hello-sec .white-h {
+    color: #f0f0f0; }
+  .say-hello-sec div form .send-btn {
+    display: block;
+    background-color: transparent;
+    height: 50px;
+    text-align: center;
+    font: 16px Asap-Bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-underline: none;
+    border: 1px solid white;
+    margin-right: 20px;
+    transition: 0.4s;
+    margin-bottom: 60px; }
+    .say-hello-sec div form .send-btn .fa-paper-plane {
+      margin-left: 5px;
+      font-size: 14px; }
+    .say-hello-sec div form .send-btn:hover {
+      border: none;
+      color: #4d4d4d;
+      background-color: white;
+      -webkit-box-shadow: 0 1px 10px 10px #5c5c5c;
+      box-shadow: 0 1px 10px 10px #5c5c5c; }
+  .say-hello-sec div form div .say-hello-input {
+    height: 60px;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    padding-left: 10px;
+    background-color: white;
+    color: #4d4d4d;
+    font: 20px Asap-Regular;
+    border: none;
+    margin-bottom: 30px; }
+    .say-hello-sec div form div .say-hello-input.message-box {
+      height: 210px;
+      line-height: 20px;
+      padding-top: 20px;
+      resize: none; }
+  .say-hello-sec .footer-2 {
+    height: 85px;
+    line-height: 85px;
+    background-color: transparent;
+    border-top: 1px solid white;
+    padding: 0; }
+    .say-hello-sec .footer-2 .footer-2-h5 {
+      font: 16px Asap-Regular;
+      color: white;
+      text-align: center;
+      margin-top: 35px; }
+    .say-hello-sec .footer-2 .soc-buttons {
+      display: flex;
+      list-style-type: none;
+      margin-top: 30px;
+      padding: 0; }
+      .say-hello-sec .footer-2 .soc-buttons .soc-button-item {
+        margin-right: 8px;
+        display: block;
+        line-height: 30px;
+        height: 30px;
+        width: 30px;
+        color: #4d4d4d;
+        background-color: white;
+        font-size: 15px;
+        transition: 0.3s; }
+        .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-1:hover {
+          background-color: #134dc1;
+          color: white; }
+        .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-2:hover {
+          background-color: #0985bf;
+          color: white; }
+        .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-3 {
+          font-size: 20px;
+          font-weight: 900;
+          font-family: Asap-Bold; }
+          .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-3:hover {
+            text-decoration: none;
+            text-underline: none;
+            background-color: #c16436;
+            color: white; }
+        .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-4 {
+          font-size: 18px; }
+          .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-4:hover {
+            background-color: #c1302a;
+            color: white; }
+        .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-5 {
+          font-size: 18px; }
+          .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-5:hover {
+            background-color: #006cc1;
+            color: white; }
+        .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-6 {
+          font-size: 18px; }
+          .say-hello-sec .footer-2 .soc-buttons .soc-button-item.soc-6:hover {
+            background-color: #c14467;
+            color: white; }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #first-btn {
+    padding-top: 7px; }
+
+  #paper-plane {
+    display: none; }
+
+  #main-info-sec {
+    padding-top: 30px; } }
+
 /*# sourceMappingURL=style.css.map */

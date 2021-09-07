@@ -38,7 +38,6 @@
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
-                </li>
             </ul>
         </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -46,7 +45,7 @@
 </header>
 <section class="top-sec container-fluid">
     <div class="container">
-        <div class="col-sm-6 main-info-sec">
+        <div class="col-sm-6 main-info-sec" id="main-info-sec">
             <h2 class="top-sec-h2">
                 Luis Oenrique
             </h2>
@@ -54,7 +53,7 @@
                 User Experience / User Interface Expert
             </h4>
             <div class="row container-fluid top-sec-btn-block">
-                <a href="#" class="top-sec-btn col-sm-4">
+                <a href="#" class="top-sec-btn col-sm-4" id="first-btn">
                     know more
                 </a>
                 <a href="#" class="top-sec-btn col-sm-4">
@@ -179,7 +178,9 @@
         <h2 class="main-h-of-sec">
             Testimonials
         </h2>
-        <img src="images/My-laziness.png" alt="" style="margin-top: 45px;">
+        <div class="container">
+            <img src="images/My-laziness.png" alt="" style="margin-top: 45px; width: 100%">
+        </div>
     </div>
 </section>
 <section class="stat-numbers-sec">
@@ -222,6 +223,45 @@
         </div>
     </div>
 </section>
+<footer class="say-hello-sec">
+    <div class="line white-line">
+    </div>
+    <h2 class="main-h-of-sec white-h">
+        Say hello!
+    </h2>
+    <div class="container say-hello-form">
+            <form action="" method="post" class="col-xs-8 col-xs-offset-2 ">
+            <div class="col-md-6 col-xs-12">
+                <input type="text" class=" say-hello-input" placeholder="Name">
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <input type="email" class=" say-hello-input" placeholder="Email">
+            </div>
+            <div class="col-md-12">
+                <textarea class="say-hello-input message-box" name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="send-btn col-xs-2 col-sm-4 col-xs-offset-5 col-sm-offset-4">
+                Send
+                <i class="fas fa-paper-plane" id="paper-plane"></i>
+            </button>
+        </form>
+        </div>
+        <div class="footer-2 container">
+                <ul class="soc-buttons col-xs-4">
+                    <li><a href="#" class="soc-button-item soc-1"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="soc-button-item soc-2"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="soc-button-item soc-3">in</a></li>
+                    <li><a href="#" class="soc-button-item soc-4"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#" class="soc-button-item soc-5"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="#" class="soc-button-item soc-6"><i class="fab fa-dribbble"></i></a></li>
+                </ul>
+            <div class="col-xs-4">
+                <h5 class="footer-2-h5">
+                    2017. All Right Reserved
+                </h5>
+            </div>
+        </div>
+</footer>
 <script src="js/owl.carousel.js"></script>
 <script src="https://kit.fontawesome.com/82d5ee9c92.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
